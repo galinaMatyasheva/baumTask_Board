@@ -1,0 +1,16 @@
+.dialogContentText {
+  display:flex;
+  flex-direction: column;
+
+  label {
+   margin-top: 20px;
+  }
+
+  textarea {
+   margin-top: 10px;
+  }
+}
+
+.MuiDialog-paperWidthSm {
+  width: 100%;
+}

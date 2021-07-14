@@ -1,0 +1,108 @@
+.task {
+  min-height: 95px;
+  display: flex;
+  margin-top: 30px;
+  font-size: 0.8em;
+  cursor: pointer;
+  background-color: #fff;
+  border: 2px solid #F4C4D0;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+
+  .task-content {
+    width: 80%;
+    padding: 5px 5px 0px 15px;
+   
+    .task-content-about {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 20px;
+
+      p {
+       width: 80%;
+       height: 40px;
+       overflow: hidden; 
+       text-overflow: ellipsis;
+       margin-right: 2%;
+       margin-top: 0;
+       margin-bottom: 0;
+      }
+    }
+  }
+
+ .task-action {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   svg {
+     color: #B9B8B6;
+   }
+
+   .MuiBadge-anchorOriginTopRightRectangle {
+     transform: none;
+     background-color: #720972;
+     color: #fff;
+     box-shadow: 5px 0px #C285BE;
+   }
+
+   .MuiBadge-badge {
+    position: inherit;
+   }
+ }
+
+  button {
+    border-radius: 0;
+    border-bottom-left-radius: 12px;
+    padding: 1px;
+
+    .MuiSvgIcon-root {
+      color: #fff;
+    }
+  }
+}
+
+.task-more-info {
+  min-height: 350px;
+  height: auto;
+  margin-top: 30px;
+  font-size: 0.8em;
+  cursor: pointer;
+  border: 2px solid #F4C4D0;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.5s ease-in-out;
+
+  .task-more-info-content {
+    width: 100%;
+    padding: 0 5px;
+    position: relative;
+
+    .MuiInput-root {
+      left: 75%;
+      bottom:85%;
+      position: absolute;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+    color: #fff;
+    padding: 5px 0px;
+  }
+
+  p {
+    margin-top: 20px;
+    width: 94%;
+    overflow-wrap: break-word;
+  }
+}
+
+

@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  padding: 30px 15px;
+  align-items: center;
+  justify-content: space-between;
+
+  .MuiIconButton-root {
+    padding: 0;
+  }
+}
+
+.board {
+  display: flex;
+  padding: 0 15px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-bottom: 75px;
+  font-family:'Open Sans', sans-serif;
+}
+
+.column {
+  min-width: 235px;
+  width: 17vw;
+  margin: 0 auto;
+}
+
+.column-title {
+  text-align: center;
+  padding: 4px 0;
+  font-size: 1em;
+  background-color: #F4390C;
+  text-transform: uppercase;
+  color: #fff;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.3);
+}
+
